@@ -22,13 +22,10 @@ description: 👾 포트스위거 문제풀이, 웹 취약점, 보안 자동화 
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://yamewrong.github.io"
 
 github:
-  username: github_username # change to your GitHub username
-
-twitter:
-  username: twitter_username # change to your Twitter username
+  username: yamewrong # change to your GitHub username
 
 social:
   # Change to your full name.
