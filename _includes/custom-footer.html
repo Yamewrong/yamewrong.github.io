@@ -1,0 +1,11 @@
+<div style="text-align: center; font-size: 0.9em; margin-top: 10px;">
+  👣 누적 방문자 수: <span id="visits"></span>명
+</div>
+
+<script>
+fetch('https://api.countapi.xyz/hit/yamewrong.github.io/visits')
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById('visits').innerText = data.value;
+  });
+</script>
